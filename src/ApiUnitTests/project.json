@@ -1,0 +1,29 @@
+﻿{
+  "version": "1.0.0-*",
+  "testRunner": "mstest",
+  "dependencies": {
+    "CoreDapperApi": "1.0.0-*",
+    "dotnet-test-mstest": "1.0.0-preview",
+    "FluentAssertions": "4.6.3",
+    "MSTest.TestFramework": "1.0.0-preview",
+    "NETStandard.Library": "1.6.0"
+  },
+
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dnxcore50",
+        "portable-net45+win8"
+      ],
+
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.1",
+          "type": "platform"
+        }
+      }
+
+    }
+  }
+}

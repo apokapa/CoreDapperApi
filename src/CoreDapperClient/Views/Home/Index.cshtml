@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<head>
+    <title>Angular Material - Starter App</title>
+    <meta charset="utf-8">
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+</head>
+<body ng-app="myApp">
+        <div class="container">
+            <div data-ng-view="" id="ng-view"></div>
+        </div>
+        <script src="lib/angular/angular.min.js"></script>
+        <script src="lib/angular-route/angular-route.min.js"></script>
+        <script src="app/myApp.js"></script>
+        <script src="app/services/dataSrvc.js"></script>
+        <script src="app/controllers/mainController.js"></script>
+        <script src="app/controllers/customersController.js"></script>
+        <script src="app/controllers/customersEditController.js"></script>
+        <script src="app/directives/controls/simpleControls.js"></script>
+</body>
